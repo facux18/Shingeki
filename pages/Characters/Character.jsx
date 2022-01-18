@@ -1,7 +1,12 @@
+import Layout from "../../components/Layout"
+
 export default function Character() {
     return (
-        <div>
-            <h1>Titan colosal 2</h1>
-        </div>
+        <Layout
+        title='Soldados'
+        description='Legion de reconocimiento'
+        >
+            <h1>Legion de reconocimiento</h1>
+        </Layout>
     )
 }
